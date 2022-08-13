@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.dua.MyDua.ui.main.page1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#FEC606"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="245dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text=" QOR'AN READINGS "
+            android:textColor="@color/purple_500"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/image_item"
+            android:layout_width="111dp"
+            android:layout_height="80dp"
+            android:background="@drawable/kuran"
+            android:gravity="center"></ImageView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="158dp"
+        android:layout_marginTop="80dp"
+        android:background="#7CEECE"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="157dp"
+            android:layout_weight="1"
+            android:background="#FEFEFE"
+            android:gravity="top|center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="90dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/yasin"
+                android:onClick="yasin" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="#FEC606"
+                android:gravity="center"
+                android:text="YASIN"
+                android:textColor="@color/purple_500"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="157dp"
+            android:layout_weight="1"
+            android:background="#F6F7F2"
+            android:gravity="top|center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/image_item2"
+                android:layout_width="100dp"
+                android:layout_height="90dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/feth"
+                android:onClick="fetih" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="#FEC606"
+                android:gravity="center"
+                android:text="FETIH / FETH"
+                android:textColor="@color/purple_500"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="151dp"
+        android:layout_marginTop="230dp"
+        android:background="#7CEECE"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="151dp"
+            android:layout_weight="1"
+            android:background="#FEFEFE"
+            android:gravity="top|center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/image_item3"
+                android:layout_width="100dp"
+                android:layout_height="90dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/mulk"
+                android:onClick="mulk" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="#FEC606"
+                android:gravity="center"
+                android:text="MULK SURESI"
+                android:textColor="@color/purple_500"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="149dp"
+            android:layout_weight="1"
+            android:background="#F6F7F2"
+            android:gravity="top|center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/image_item4"
+                android:layout_width="100dp"
+                android:layout_height="90dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/annaba"
+                android:onClick="nebe" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="41dp"
+                android:background="#FEC606"
+                android:gravity="center"
+                android:text="NEBE SURESI"
+                android:textColor="@color/purple_500"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="151dp"
+        android:layout_marginTop="380dp"
+        android:background="#7CEECE"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="151dp"
+            android:layout_weight="1"
+            android:background="#FEFEFE"
+            android:gravity="top|center"
+
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/image_item5"
+                android:layout_width="100dp"
+                android:layout_height="90dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/kuran"
+                android:onClick="kisasureler" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="#FEC606"
+                android:gravity="center"
+                android:text="KISA SURELER"
+                android:textColor="@color/purple_500"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="151dp"
+            android:layout_weight="1"
+            android:background="#F6F7F2"
+            android:gravity="top|center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/image_item6"
+                android:layout_width="100dp"
+                android:layout_height="90dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/kuran"
+                android:onClick="kuran" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="#FEC606"
+                android:gravity="center"
+                android:text="All QUR'AN"
+                android:textColor="@color/purple_500"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginTop="628dp"
+        android:background="#7CEECE"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            android:layout_weight="1"
+            android:background="#FEC606"
+            android:gravity="center"
+            android:onClick="ortakdua"
+            android:text="  ORTAK DUA  "
+            android:textColor="@color/purple_500"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="2dp"
+            android:layout_height="55dp"
+            android:layout_weight="1"
+            android:background="@drawable/kuran"
+            android:gravity="center" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            android:layout_weight="1"
+
+            android:background="#FEC606"
+            android:gravity="center"
+            android:onClick="erisale"
+            android:text="Risale-i Nur-Eng"
+            android:textColor="@color/purple_500"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginTop="550dp"
+        android:background="#7CEECE"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            android:layout_weight="1"
+            android:background="#FEC606"
+            android:gravity="center"
+            android:onClick="rahman"
+            android:text="RAHMAN SURESI"
+            android:textColor="@color/purple_500"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="24dp"
+            android:layout_height="55dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:background="@drawable/kuran"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            android:layout_weight="1"
+
+            android:background="#FEC606"
+            android:gravity="center"
+            android:onClick="hasir"
+            android:text="HASIR SURESI SON"
+            android:textColor="@color/purple_500"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</FrameLayout>

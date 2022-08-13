@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">My Dua</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="linktosite">
+    <a href="https://drive.google.com/file/d/1tlBX1KjpSSeW6Lz0lHqtOaHYEBNc7_tp/view?usp=sharing">mehaba</a>
+</string>
+    <string name="title_activity_about_page">AboutPage</string>
+    <string name="tab_text_1" />
+    <string name="tab_text_2">My Dua uygulamasina hosgeldiniz, kendi okuma ihtiyaclarim icin hazirladigim bu uygulama, umarim sizlerin de dua ve kitap okuma ihtiyacinizi buyuk oranda karsilayacaktir. Dostlariniza tavsiye etmeyi ve dua etmeyi unutmayin.Tesekkur ederim</string>
+    <string name="thanks">For more details and Special thanks to: https://www.ozgurherkul.org/, https://kuran.diyanet.gov.tr/, https://www.onlinedua.org/</string>
+
+</resources>

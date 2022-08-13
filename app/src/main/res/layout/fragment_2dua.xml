@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.dua.MyDua.ui.main.page2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:background="#FEC606"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="DUALAR / DUA's"
+            android:textColor="@color/purple_500"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/image_item"
+            android:layout_width="113dp"
+            android:layout_height="70dp"
+            android:background="@drawable/kuran"
+            android:gravity="center"></ImageView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="155dp"
+        android:layout_marginTop="70dp"
+        android:background="#7CEECE"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="154dp"
+            android:layout_weight="1"
+            android:background="#FEFEFE"
+            android:gravity="top|center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="90dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/kulubuddaria"
+                android:onClick="kisakulubuddaria" />
+
+            <TextView
+                android:layout_width="194dp"
+                android:layout_height="45dp"
+                android:background="#FEC606"
+                android:gravity="center"
+                android:text="Kısa Klubuddaria"
+                android:textColor="@color/purple_500"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="154dp"
+            android:layout_weight="1"
+            android:background="#F6F7F2"
+            android:gravity="top|center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="90dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/hacetkrona"
+                android:onClick="corona" />
+
+            <TextView
+                android:layout_width="188dp"
+                android:layout_height="45dp"
+                android:background="#FEC606"
+                android:gravity="center"
+                android:text="Hacet-Crona"
+                android:textColor="@color/purple_500"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="149dp"
+        android:layout_marginTop="230dp"
+        android:background="#7CEECE"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="148dp"
+            android:layout_weight="1"
+            android:background="#FEFEFE"
+            android:gravity="top|center"
+            android:orientation="vertical">
+
+            <ImageView
+
+                android:layout_width="100dp"
+                android:layout_height="90dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/cevsen1"
+                android:onClick="cevsen" />
+
+            <TextView
+
+                android:layout_width="192dp"
+                android:layout_height="40dp"
+                android:background="#FEC606"
+                android:gravity="center"
+                android:text="CEVSEN"
+                android:textColor="@color/purple_500"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="149dp"
+            android:layout_weight="1"
+            android:background="#F6F7F2"
+            android:gravity="top|center"
+            android:orientation="vertical">
+
+            <ImageView
+
+                android:layout_width="100dp"
+                android:layout_height="90dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/tesbihat"
+                android:onClick="tesbihat" />
+
+            <TextView
+
+                android:layout_width="191dp"
+                android:layout_height="40dp"
+                android:background="#FEC606"
+                android:gravity="center"
+                android:text="TESBIHAT"
+                android:textColor="@color/purple_500"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="380dp"
+        android:background="#7CEECE"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#FEFEFE"
+            android:gravity="top|center"
+            android:orientation="vertical">
+
+            <ImageView
+
+                android:layout_width="100dp"
+                android:layout_height="90dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/tevhidname"
+                android:onClick="tevhidname" />
+
+            <TextView
+
+                android:layout_width="190dp"
+                android:layout_height="40dp"
+                android:background="#FEC606"
+                android:gravity="center"
+                android:text="TEVHIDNAME"
+                android:textColor="@color/purple_500"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:background="#F6F7F2"
+            android:gravity="top|center"
+            android:orientation="vertical">
+
+            <ImageView
+
+                android:layout_width="100dp"
+                android:layout_height="90dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/sekine"
+                android:onClick="sekine" />
+
+            <TextView
+
+                android:layout_width="184dp"
+                android:layout_height="40dp"
+                android:background="#FEC606"
+                android:gravity="center"
+                android:text="SEKINE"
+                android:textColor="@color/purple_500"
+                android:textSize="17dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginTop="550dp"
+        android:background="#FFFFF7"
+        android:paddingLeft="6dp"
+        android:paddingRight="6dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="180dp"
+            android:layout_height="55dp"
+            android:background="#FEC606"
+            android:gravity="center"
+            android:onClick="bcevsen"
+            android:text="BUYUK CEVSEN"
+            android:textColor="@color/purple_500"
+            android:textSize="15sp"
+            android:layout_weight="1"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="56dp"
+            android:layout_height="55dp"
+            android:layout_weight="1"
+            android:background="@drawable/kuran"
+            android:gravity="center" />
+        <TextView
+            android:layout_width="180dp"
+            android:layout_height="55dp"
+            android:background="#FEC606"
+            android:gravity="center"
+            android:onClick="kulubuddaria"
+            android:text="KULUBUDDARIA-FULL"
+            android:layout_weight="1"
+            android:textColor="@color/purple_500"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginTop="620dp"
+        android:background="#FFFFF7"
+        android:paddingLeft="6dp"
+        android:paddingRight="6dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="131dp"
+            android:layout_height="55dp"
+            android:layout_weight="1"
+            android:background="#FEC606"
+            android:gravity="center"
+            android:onClick="celcelutiye"
+            android:text="CELCELUTIYE"
+            android:textColor="@color/purple_500"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="9dp"
+            android:layout_height="55dp"
+            android:layout_weight="1"
+            android:background="@drawable/kuran"
+            android:gravity="center" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            android:layout_weight="1"
+
+            android:background="#FEC606"
+            android:gravity="center"
+            android:onClick="ekudsiye"
+            android:text="EVRAD-I KUDSIYYE"
+            android:textColor="@color/purple_500"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</FrameLayout>
